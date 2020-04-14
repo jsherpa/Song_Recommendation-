@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>SHE SAID IT</title>
+
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+
+<style>
+
+    .center {
+      display: block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 50%;
+    }
+
+    h1{color: #006699}
+    h3{color: #0099e6}
+
+</style>
+
+  </head>
+  <body>
+<h3 style="text-align:center;"> your choice: {{ variable[1] }} </h3>
+<h3 style="text-align:center;"> 1st choice: {{ variable[0][0] }} </h3>
+<h3 style="text-align:center;"> 2nd choice: {{ variable[0][1] }} </h3>
+<h3 style="text-align:center;"> 3rd choice: {{ variable[0][2] }} </h3>
+<h3 style="text-align:center;"> 4rd choice: {{ variable[0][3] }} </h3>
+<h3 style="text-align:center;"> 5th choice: {{ variable[0][4] }} </h3>
+<h1 style="text-align:center;">  </h1>
+
+
+
+<a class="center" href="">Get another recommendation</a>
+
+  </body>
+</html>
