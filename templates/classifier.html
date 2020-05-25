@@ -8,56 +8,78 @@
       integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
       crossorigin="anonymous"
     />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css">
     <title>Song Recommendations</title>
+    <style>
+      html{
+        background:#259c98;
 
-<style>
-h1{color: #006699}
-h3{color: #0099e6}
-h4{color: #006969}
+      }
+      body{
+        background: #259c98;
+        background-image:url("../static/Images/dfsd.jpg");
+        background-size: cover;
+        height:100vh;
 
-a:link, a:visited, a:hover, a:active {
-  color: #696969;
-  text-align: center;
-}
+      }
+      h1{color: #006699}
+      h3{color: #0099e6}
+      h4{color: #006969}
 
-.content {
-  max-width: 500px;
-  margin: auto;
-}
+      a:link, a:visited, a:hover, a:active {
+        color: #696969;
+        text-align: center;
+      }
 
-.center {
-  display: block;
-  margin-left: auto;
-  margin-right: auto;
-  width: 50%;
-}
- /* body{
-  background-image: url("https://c402277.ssl.cf1.rackcdn.com/photos/18315/images/hero_full/Medium_WW230176.jpg?1576168323");
-} */
-</style>
-<body>
+      .content {
+        max-width: 500px;
+        margin: auto;
+      }
+
+      .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+
+      .submit{
+        padding:10px 15px;
+        background:#1c5a79;
+        width: 100px;
+        color:white;
+        border:white 1px solid;
+        border-radius: 2px;
+        transition: all 300ms ease-in;
+      }
+      .submit:hover{
+        transition: all 300ms ease-in;
+        background: #006394;
+        border-radius: 50px;
+       }
+       /* body{
+        background-image: url("https://c402277.ssl.cf1.rackcdn.com/photos/18315/images/hero_full/Medium_WW230176.jpg?1576168323");
+      } */
+    </style>
   </head>
+<body>
+  	<div class="container">
+  		<br>
+  		<h3 style="color:#1c5a79"> Music-Rec &nbsp <i class="fas fa-headphones-alt"></i></h3>
+  		<hr>
+	    <div style="margin-top:10%">
+  	    <div textfont = 30px width="200" style="text-align:center; color:#105050"> Welcome!
+  	    </div>
+  	    <h1 style="text-align:center; color:#55c799">The Best Tool To Expand Your Music Taste</h1>
+  	    <br>
+  	    <form method="POST" style="text-align:center;">
+  	        <input style="width:400px;padding:10px;border-radius:3px; background:#white; border:1px solid gray" type="text" name="text" width="800" placeholder="Enter a song to get recommendations">
 
-    <img src="https://c402277.ssl.cf1.rackcdn.com/photos/18315/images/hero_full/Medium_WW230176.jpg?1576168323" alt="Smiley face" class= "center" >
-    <img src="./Images/avatar.jpg" alt="Smiley face" class= "center" >
-    <div textfont = 30px width="200" style="text-align:center;"> Welcome!
+  	        <input type="submit" value="submit" class="submit"><br>
+  	    </form>
+        <br>
+  	    <a class="center" style="text-align:center;" href="https://github.com/jsherpa">GitHub</a>
+      </div>
     </div>
-    <h1 style="text-align:center;">Song Recommendation</h1>
-
-
-    <h4 style="text-align:center;"></h4>
-
-
-    <h3 style="text-align:center;">Enter a song to get recommendations:</h3>
-
-    <form method="POST" style="text-align:center;">
-                    <input type="text" name="text" width="800"><br>
-                    <br>
-                    <input type="submit" value="submit"><br>
-    </form>
-
-    <a class="center" style="text-align:center;" href="https://github.com/jsherpa">GitHub</a>
-
-
   </body>
 </html>
