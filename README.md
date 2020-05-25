@@ -18,4 +18,4 @@ Build a Recommendation system(Item-Item based).
 
 **Data Source**
 1. Gather Data Using Spotify API. 
-    <img src="static/Images/Spotify_logo.jpg" align="center" width="60%">
+    <img src="static/Images/Spotify_logo.png" align="center" width="60%">
