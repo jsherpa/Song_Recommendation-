@@ -5,6 +5,10 @@ Demo - (https://www.youtube.com/watch?v=cY7SsKV4brU)
 ## Overview
 Build a Recommendation system(Item-Item based). 
 
+## Data Source 
+Gather Data Using Spotify API. 
+<img src="static/Images/Spotify_logo.png" align="center" width="10%">
+
 ## Data Process 
 - 
 -  
@@ -14,7 +18,3 @@ Build a Recommendation system(Item-Item based).
 - Scikit Learn(Pair-wise distance)
     - Euclidean 
     - Cosine 
-
-**Data Source**
-Gather Data Using Spotify API. 
-<img src="static/Images/Spotify_logo.png" align="center" width="10%">
