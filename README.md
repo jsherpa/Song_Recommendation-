@@ -2,7 +2,7 @@
 Jigme Sherpa<br/>
 Presentation - (https://docs.google.com/presentation/d/1Pfg2n1KSGXKG3N-I3g5MKp2Su8YuQaN-lE8QANiySgQ/edit?usp=sharing)
 
-<img src="static/Images/dfsd.jpg" align="center" width="60%">
+
 ## Overview
 Build a Recommendation system(Item-Item based). 
 
@@ -17,4 +17,5 @@ Build a Recommendation system(Item-Item based).
 - XGBoost 
 
 **Data Source**
-1. Kaggle: [Adult Census Income Dataset](https://www.kaggle.com/uciml/adult-census-income)
+1. Gather Data Using Spotify API. 
+    <img src="static/Images/Spotify_logo.jpg" align="center" width="60%">
