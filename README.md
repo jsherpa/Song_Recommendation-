@@ -2,6 +2,7 @@
 Jigme Sherpa<br/>
 Presentation - (https://docs.google.com/presentation/d/1Pfg2n1KSGXKG3N-I3g5MKp2Su8YuQaN-lE8QANiySgQ/edit?usp=sharing)
 
+<img src="/_Images/dfsd.jpg" align="center" width="60%">
 ## Overview
 Build a Recommendation system(Item-Item based). 
 
