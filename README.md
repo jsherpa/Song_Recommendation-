@@ -1,7 +1,7 @@
 # Music-Rec
 Presentation - (https://docs.google.com/presentation/d/1Pfg2n1KSGXKG3N-I3g5MKp2Su8YuQaN-lE8QANiySgQ/edit?usp=sharing)
 <br/>
-<video src="static/Images/Song_Recommendation.mov" width="320" height="200" controls preload></video>
+<video src="static/Images/Song_Recommendation.mp4" width="320" height="200" controls preload></video>
 ## Overview
 Build a Recommendation system(Item-Item based). 
 
