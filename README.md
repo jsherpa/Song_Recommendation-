@@ -10,14 +10,14 @@ Build a Recommendation system(Item-Item based).
 Gather Data Using Spotify API. 
 <img src="static/Images/Spotify_logo.png" align="center" width="10%">
 ## Features
-<img src="static/Images/Featues.png" align="center" width="50%">
+<img src="static/Images/Featues.png" align="center" width="70%">
 Features that are used to get the recommendation. 
 
 ## Exploratory Data Analysis(EDA)
 - Comparing the two features.(Danceability vs. Valence)
-<img src="static/Images/Dance.png" align="center" width="50%">
+<img src="static/Images/Dance.png" align="center" width="70%">
 - Energy of different genres. 
-<img src="static/Images/Energy.png" align="center" width="50%">
+<img src="static/Images/Energy.png" align="center" width="70%">
 
 ## Tools<br/>
 - Scikit Learn(Pair-wise distance)
