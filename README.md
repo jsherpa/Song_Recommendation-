@@ -23,3 +23,4 @@ Features that are used to get the recommendation.
 - Scikit Learn(Pair-wise distance)
     - Euclidean 
     - Cosine 
+- Cosine Similarity gave the overall better recommendation after manual testing. 
